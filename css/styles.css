@@ -121,6 +121,12 @@
         width: 90%;
         height: auto;
         white-space: pre-wrap;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .row-youtube{
+        display: block;
+        align-items: center;
     }
     .div_video {
         margin-top: 0px;
