@@ -50,8 +50,8 @@
     
     position: relative;
     width: 100%;
-    height: 30vh; /* Ajusta la altura según tus necesidades */
-    background-image: url("../media/images/caldas_noche.jpg");
+    height: 42vh; /* Ajusta la altura según tus necesidades */
+    background-image: url("../media/images/caldas_noche.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
