@@ -1,0 +1,42 @@
+   /* Estilos para la barra de navegación */
+   .navbar {
+    background-color: transparent;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        background-color: #343a40;
+    }
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #6c757d;
+    font-size: 25px;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus {
+    color: #f37921;
+    font-weight: bold;
+}
+
+/* Estilos para el contenedor con imagen */
+.image-container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container img {
+    width: 100vw;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1000; /* Asegura que la barra de navegación esté por encima de la imagen */
+}

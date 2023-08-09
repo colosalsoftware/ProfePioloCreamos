@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yeni</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="margin: 0%;padding: 0%;">
+  <div class="container-fluid image-container" style="margin: 0%;padding: 0%;overflow: hidden;background-color: #f37921;">
+    <div class="container-fluid" style="margin: 0%;padding: 0%;position: absolute;">
+        <img src="img/home.png" style="width: 100vw;"> 
+        
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#QuienSoy">¿Quién soy?</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#QueHare">¿Qué haré?</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://wa.link/yuivdb">Hablemos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://forms.gle/MvMJ4LCNNGsUesSp7">Apóyame</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <a style="margin-left: 2%;" href="https://instagram.com/yenifer.restrep?igshid=MzRlODBiNWFlZA=="><img src="img/instagram.png" style="height: 25px;width: auto; "></a>
+			<a style="margin-left: 2%;" href="https://www.facebook.com/WENGIFAR?mibextid=ZbWKwL"><img src="img/facebook.png" style="height: 25px;width: auto; "></a>  
+  		<a style="margin-left: 2%;" href="https://profepiolocreamos.com"><img src="img/piolo.png" style="height: 25px;width: auto; "></a>  
+    </nav>
+</div>
+<div  style="background-color: #f37921;height: 50px;margin: 0%;"></div>  
+
+
+<div id="QuienSoy" class="container-fluid" style="margin: 0%;padding: 0%;overflow: hidden;background-color: #f37921; ">
+  <img src="img/con_hechos.png" style="width: 100vw;"> 
+</div>
+<div  style="background-color: #f37921;height: 70px;margin: 0%;"></div>  
+<div id="QueHare" class="container-fluid" style="margin: 0%;padding: 0%;overflow: hidden;background-color: #f37921; ">
+  <img src="img/desarrollo_territorial.png" style="width: 100vw;"> 
+</div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script>
+        // Calcular y aplicar altura dinámica al contenedor de imagen
+        const imageContainer = document.querySelector('.image-container');
+        const image = imageContainer.querySelector('img');
+        imageContainer.style.height = `${image.clientHeight}px`;
+      </script>
+</body>
+</html>
+
